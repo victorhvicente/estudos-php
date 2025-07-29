@@ -1,7 +1,8 @@
 <?php
+
 $palavra = "Testando";
 
-$palavraInvertida = strrev($palavra);
+$palavraInvertida = strrev($palavra); // A função strrev inverte a ordem dos caracteres de uma string
 
 echo "$palavra <br>";
 echo "$palavraInvertida <br>";
@@ -13,5 +14,4 @@ $fraseInvertida = strrev($frase);
 
 echo "$frase <br>";
 echo "$fraseInvertida";
-
 ?>
